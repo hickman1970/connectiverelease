@@ -9,6 +9,11 @@
 		<title>Connective Release, LLC</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
+
+		<!-- turn off caching, useful for debuging -->
+                <META HTTP-EQUIV="Pragma" CONTENT="no-cache">
+                <META HTTP-EQUIV="Expires" CONTENT="-1">
+
 		<!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
 		<link rel="stylesheet" href="assets/css/main.css" />
 		<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
@@ -20,12 +25,12 @@
 				<header>
 					<!--<span class="image avatar"><img src="images/avatar.jpg" alt="" /></span>-->
 					<h1 id="logo"><a href="#">Connective Release, LLC</a></h1>
-					<ul>
-						<li>Release Restrictions</li>
-						<li>Improve Movement</li>
-						<li>Function Pain Free</li>
-					</ul>
-				</header>
+					</header>
+					<p>Release Restrictions<br>
+						Improve Movement<br>
+						Function Pain Free<br>
+					</p>
+				
 				<nav id="nav">
 					<ul>
 						<li><a href="#one" class="active">Connective Release, LLC</a></li>
@@ -37,13 +42,10 @@
 					</ul>
 				</nav>
 				<footer>
-					<ul class="icons">
-						<li><a href="#" class="icon fa-twitter"><span class="label">Twitter</span></a></li>
-						<li><a href="#" class="icon fa-facebook"><span class="label">Facebook</span></a></li>
-						<li><a href="#" class="icon fa-instagram"><span class="label">Instagram</span></a></li>
-						<li><a href="#" class="icon fa-github"><span class="label">Github</span></a></li>
-						<li><a href="#" class="icon fa-envelope"><span class="label">Email</span></a></li>
-					</ul>
+					<div class="container">
+                                                                Design: <a href="http://html5up.net">HTML5 UP</a>
+                                        </div>
+
 				</footer>
 			</section>
 
@@ -92,7 +94,8 @@
 									<p>Following visits will last 1 hour at cost of $80.  Fifth visit is ½ price!</p>
 
 									<p>Attire for treatment:  Since myofascial release is performed directly on the skin, clothing such as sports bra, shorts, tank top would work.</p>
-									
+									<p>Will provide home visits within the circle on this map</p>
+									<img src=images/map.png>
 								</div>
 							</section>	
 

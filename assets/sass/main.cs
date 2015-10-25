@@ -1189,6 +1189,7 @@ body {
 
   .\-1u\28xsmall\29 {
     margin-left: 8.33333%; } }
+/*$size-header: 23em;*/
 /* Basic */
 body {
   background: #fff; }
@@ -1859,7 +1860,7 @@ input[type="button"],
   position: fixed;
   text-align: center;
   top: 0;
-  width: 23em;
+  width: 15em;
   right: 0; }
   #header h1, #header h2, #header h3, #header h4, #header h5, #header h6 {
     color: #eeeeee; }
@@ -1921,7 +1922,7 @@ input[type="button"],
 /* Wrapper */
 #wrapper {
   background: #fff;
-  padding-right: 23em; }
+  padding-right: 15em; }
 
 /* Main */
 #main > section {
@@ -1939,7 +1940,7 @@ input[type="button"],
   background-size: cover;
   content: '';
   display: block;
-  height: 20em;
+  height: 15em;
   width: 100%; }
 
 /* Footer */
@@ -2033,12 +2034,12 @@ input[type="button"],
     overflow-y: auto;
     position: fixed;
     top: 0;
-    width: 23em;
+    width: 15em;
     z-index: 10002;
-    -moz-transform: translateX(23em);
-    -webkit-transform: translateX(23em);
-    -ms-transform: translateX(23em);
-    transform: translateX(23em);
+    -moz-transform: translateX(15em);
+    -webkit-transform: translateX(15em);
+    -ms-transform: translateX(15em);
+    transform: translateX(15em);
     right: 0; }
     #header > footer {
       bottom: auto;
@@ -2127,10 +2128,10 @@ input[type="button"],
         right: 0; }
 
   body.header-visible #wrapper, body.header-visible #titleBar {
-    -moz-transform: translateX(-23em);
-    -webkit-transform: translateX(-23em);
-    -ms-transform: translateX(-23em);
-    transform: translateX(-23em); }
+    -moz-transform: translateX(-15em);
+    -webkit-transform: translateX(-15em);
+    -ms-transform: translateX(-15em);
+    transform: translateX(-15em); }
   body.header-visible #header {
     -moz-transform: translateX(0);
     -webkit-transform: translateX(0);
@@ -2273,4 +2274,4 @@ input[type="button"],
   max-width: 100%;
   height: auto; }
 
-/*# sourceMappingURL=main.css.map */
+/*# sourceMappingURL=main.cs.map */

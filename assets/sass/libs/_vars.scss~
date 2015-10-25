@@ -40,10 +40,10 @@
 		border3-bg:		#eaeaea,
 
 		accent1: (
-			bg:		#f4715c,
+			bg:		#eeeeee,
 			fg-bold:	#ffffff,
-			fg:		mix(#393939, #ffffff, 25%),
-			fg-light:	mix(#393939, #ffffff, 40%)
+			fg:		mix(#333333, #ffffff, 25%),
+			fg-light:	mix(#333333, #ffffff, 40%)
 		),
 
 		accent2: (
@@ -54,12 +54,10 @@
 		),
 
 		header: (
-			bg:		#333c40,
-			fg-bold:	#eeeeee,
-			//fg:		mix(#f4715c, #ffffff, 24%),
-			fg:		#aaaaaa,
-			fg-light:	mix(#f4715c, #ffffff, 40%),
-			//border:		mix(#f4715c, #ffffff, 90%)
-			border:		#888888
+			bg:		#eeeeee,
+			fg-bold:	#ffffff,
+			fg:		mix(#333333, #ffffff, 24%),
+			fg-light:	mix(#333333, #ffffff, 40%),
+			border:		mix(#333333, #ffffff, 90%)
 		)
 	);
